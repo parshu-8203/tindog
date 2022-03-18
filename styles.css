@@ -1,0 +1,169 @@
+/* BODY */
+body {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+/* Section */
+.coloured-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.uncoloured-section {
+  background-color: white;
+}
+
+/* Title Section */
+.container-fluid {
+  padding: 3% 15% 6%;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.phone-image {
+  width: 300px;
+  transform: rotate(26deg);
+  position: absolute;
+  right: 25%;
+}
+
+.big-heading {
+  font-size: 2.5rem;
+  line-height: 1.8;
+  color: white;
+  text-align: left;
+}
+
+/* Download Button */
+.download-button {
+  text-align: left;
+}
+
+.download-button .btn {
+  margin-right: 10px;
+  margin-bottom: 80px;
+}
+
+/* Features Section */
+#features {
+  margin: 0;
+  padding: 30px 50px;
+  position: relative;
+}
+
+.feature {
+  margin: 40px 0;
+}
+
+.feature-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.features-text
+{
+  color:#8f8f8f;
+}
+/* Testimonials */
+.coloured-section#testimonials, .coloured-section#press
+{
+  background-color: #ef8172;
+}
+/* Carousel */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-headings {
+  font-size: 2rem;
+}
+
+.test-image {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-log {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-heading {
+  font-size: 2.2rem;
+}
+
+.pricing-sub-heading {
+  font-size: 1.4rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-rates {
+  font-size: 2rem;
+}
+
+/* MEDIA QUERY */
+@media (max-width:1028px) {
+  .phone-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* cta section */
+#cta {
+  padding: 100px;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* Footer Section */
+#footer {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.foot-icon {
+  margin-left: 14px;
+  margin-bottom: 15px;
+}
+.foot-icon:hover
+{
+  color:blue;
+}
